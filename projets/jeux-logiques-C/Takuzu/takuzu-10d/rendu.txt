@@ -1,0 +1,2 @@
+REPOSITORY: https://gitlab.emi.u-bordeaux.fr/pt2/teams/tm10/takuzu-10d.git
+COMMIT: 7e5b6ca34873b084fd02a18c434b5fd779a40c31
