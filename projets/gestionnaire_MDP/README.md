@@ -24,6 +24,20 @@ L'implémentation s'appuie exclusivement sur la bibliothèque **Libsodium** afin
     *   **XChaCha20** assure la confidentialité des données (avec un Nonce étendu de 24 octets, évitant les collisions de vecteurs d'initialisation).
     *   **Poly1305** génère un tag d'authentification (MAC) garantissant l'intégrité absolue des données : toute modification du fichier chiffré bloquera le déchiffrement.
 
+## 🔍 Extrait du code : Chiffrement XChaCha20-Poly1305
+
+Voici l'implémentation en C utilisant Libsodium pour chiffrer et authentifier les données :
+
+```c
+// 5. LE CHIFFREMENT (Génère le texte chiffré ET le tag Poly1305)
+crypto_secretbox_easy(ciphertext, (const unsigned char*)plaintext, plaintext_len, nonce, key);
+
+if (crypto_secretbox_open_easy(decrypted, ciphertext, ciphertext_len, nonce, key) != 0) {
+    printf("ALERTE : Déchiffrement impossible ! Données corrompues ou mauvaise clé.\n");
+    return 1;
+}
+```
+
 ##  Compilation et Exécution
 
 **Prérequis :**
