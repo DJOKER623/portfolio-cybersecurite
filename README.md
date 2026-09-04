@@ -21,6 +21,7 @@ Portfolio
 ## Réalisations et Projets Phares
 
 ### 1. Exploitation Avancée et Sécurité Logicielle (CTF Root-Me)
+📄 **[Télécharger mon rapport d'exploitation complet (PDF)](./source/Rapport.pdf)**
 *   **Exploitation Noyau (Ring 0) :** Exploitation de vulnérabilités de type *Null Pointer Dereference* et *Buffer Overflow* sur des modules noyau Linux (x86 et ARM).
 *   **Contournement de Sécurité :** Mise en place d'attaques de type ROP (Return-Oriented Programming) pour neutraliser la protection matérielle SMEP. Développement de micro-exploits en pur assembleur pour contourner le PXN (Privileged execute-Never) sur architecture ARM.
 *   **Développement de Shellcodes :** Création de shellcodes "Zero-Process" (ORW - Open, Read, Write) pour extraire des données tout en évitant la perte de privilèges SGID/SUID, avec encodage personnalisé (via Pwntools) pour esquiver les filtres de caractères (*badchars*).
