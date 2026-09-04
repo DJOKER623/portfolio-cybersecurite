@@ -1,0 +1,3 @@
+/home/samsan/Bureau/Gestion MDP/GDMP/build/CMakeFiles/password_manager.dir
+/home/samsan/Bureau/Gestion MDP/GDMP/build/CMakeFiles/edit_cache.dir
+/home/samsan/Bureau/Gestion MDP/GDMP/build/CMakeFiles/rebuild_cache.dir

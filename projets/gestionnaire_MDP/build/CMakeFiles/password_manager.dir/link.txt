@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/password_manager.dir/main.c.o -o password_manager  -lsodium 
