@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tetris_404
+parent: Jeux-logiques
+nav_order: 1
+---
+
 # NDI_2023
 
 

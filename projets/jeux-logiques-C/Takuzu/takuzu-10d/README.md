@@ -1,3 +1,10 @@
+---
+layout: default
+title: Takuzu
+parent: Jeux-logiques
+nav_order: 1
+---
+
 # takuzu-10d
 
 ## COMMIT DU groupe:

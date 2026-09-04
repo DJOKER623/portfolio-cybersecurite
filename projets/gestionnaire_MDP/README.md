@@ -1,3 +1,10 @@
+---
+layout: default
+title: Gestionnaire de Mots de Passe
+parent: Projets
+nav_order: 1
+---
+
 # 🔐 GDMP - Core Crypto (Gestionnaire de Mots de Passe)
 
 *Projet personnel en cours de développement.*
