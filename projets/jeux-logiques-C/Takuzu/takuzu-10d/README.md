@@ -2,7 +2,7 @@
 layout: default
 title: Takuzu
 parent: Jeux-logiques
-nav_order: 1
+nav_order: 3
 ---
 
 # takuzu-10d

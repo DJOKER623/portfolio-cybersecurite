@@ -2,7 +2,7 @@
 layout: default
 title: Tetris_404
 parent: Jeux-logiques
-nav_order: 1
+nav_order: 4
 ---
 
 # NDI_2023

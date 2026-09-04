@@ -2,7 +2,7 @@
 layout: default
 title: Gestionnaire de Mots de Passe
 parent: Projets
-nav_order: 1
+nav_order: 2
 ---
 
 # 🔐 GDMP - Core Crypto (Gestionnaire de Mots de Passe)
