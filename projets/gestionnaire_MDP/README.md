@@ -5,13 +5,13 @@ parent: Projets
 nav_order: 2
 ---
 
-# 🔐 GDMP - Core Crypto (Gestionnaire de Mots de Passe)
+# GDMP - Core Crypto (Gestionnaire de Mots de Passe)
 
 *Projet personnel en cours de développement.*
 
 Ce projet est le moteur cryptographique (Core) d'un futur gestionnaire de mots de passe développé en C/C++. L'objectif principal est de mettre en pratique des concepts de **cryptographie appliquée** en utilisant des standards modernes et robustes.
 
-## 🛡️ Primitives Cryptographiques Utilisées
+## Primitives Cryptographiques Utilisées
 
 L'implémentation s'appuie exclusivement sur la bibliothèque **Libsodium** afin de garantir une sécurité maximale et d'éviter les vulnérabilités liées aux implémentations cryptographiques "maison".
 
@@ -24,7 +24,7 @@ L'implémentation s'appuie exclusivement sur la bibliothèque **Libsodium** afin
     *   **XChaCha20** assure la confidentialité des données (avec un Nonce étendu de 24 octets, évitant les collisions de vecteurs d'initialisation).
     *   **Poly1305** génère un tag d'authentification (MAC) garantissant l'intégrité absolue des données : toute modification du fichier chiffré bloquera le déchiffrement.
 
-## 🛠️ Compilation et Exécution
+##  Compilation et Exécution
 
 **Prérequis :**
 *   Compilateur C/C++ (GCC/Clang)
