@@ -1,0 +1,121 @@
+# Fichiers de compilation LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+
+# Fichiers de style et de configuration temporaires
+*.sty
+*.cls
+
+# Fichiers de package
+*.sty
+
+# Fichiers d'index et de glossaire
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+
+# Fichiers de nomenclature
+*.nlo
+*.nls
+*.nlg
+
+# Fichiers de bibliographie
+*.bib~
+*.bcf
+
+# Fichiers de métadonnées
+*-blx.bib
+*.run.xml
+
+# Fichiers de navigation pour les présentations
+*.nav
+*.snm
+*.vrb
+
+# Fichiers de marqueurs
+*.mw
+
+# Fichiers de commentaires
+*.cmt
+
+# Fichiers de sortie PDF (optionnel - à décommenter si vous ne voulez pas versionner le PDF)
+# *.pdf
+
+# Fichiers de sauvegarde et temporaires
+*~
+*.backup
+*.bak
+*.swp
+*.swo
+
+# Dossiers de compilation
+_output/
+temp/
+tmp/
+build/
+*.dvi
+
+# Fichiers spécifiques à certains éditeurs
+# TeXShop
+.texpadtmp
+
+# TeXnicCenter
+*.tpm
+
+# TeXworks
+*.tw*
+
+# WinEdt
+*.bak
+
+# Emacs
+\#*\#
+.\#*
+
+# Vim
+*.vi
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers de données R et Python (si vous utilisez ces langages)
+*.RData
+*.Rhistory
+*.pyc
+__pycache__/
+
+# Fichiers de données et figures générées
+*.csv
+*.xlsx
+*.dat
+*.eps
+*.ps
+
+# Logs et fichiers système
+*.orig
+*.rej
