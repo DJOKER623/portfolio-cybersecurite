@@ -5,6 +5,8 @@ nav_order: 1
 permalink: /
 ---
 
+**Langues :** [🇫🇷 Français](./) | [🇬🇧 English](./en/) | [🐅🟥 தமிழ் (Tamil)](./ta/)
+
 # portfolio-cybersecurite
 Portfolio
 # Mervyn Samsan - Portfolio Cybersécurité & Ingénierie Système
