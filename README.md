@@ -14,6 +14,8 @@ Portfolio
 À travers mon parcours académique et mes entraînements sur des plateformes comme Root-Me, j'ai développé une compréhension de la machine à son plus bas niveau, de l'exploitation de vulnérabilités complexes, et de la sécurisation des infrastructures.
 
 ---
+## Mon CV
+[📄 Télécharger mon CV (PDF)](./CV_Mervyn_Samsan.pdf){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ## Compétences Techniques
 
