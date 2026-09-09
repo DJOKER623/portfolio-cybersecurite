@@ -31,7 +31,7 @@ Ce module regroupe l'ensemble des compétences acquises lors de la conception, d
 *   **Annuaires et Partages :** Déploiement de serveurs OpenLDAP (`slapd`) pour la gestion centralisée des identités et configuration de partages de fichiers via NFS.
 *   **Résolution de noms & DHCP :** Configuration de clients/serveurs DNS et maîtrise des mécanismes d'attribution d'adresses IP par diffusion (Broadcast).
 
-## 🔍 Extrait de Configuration : Pare-feu & NAT (iptables)
+## Extrait de Configuration : Pare-feu & NAT (iptables)
 
 Voici un exemple des règles de pare-feu déployées pour sécuriser une passerelle, interdire le trafic non sollicité par défaut, et autoriser le trafic légitime vers un serveur spécifique :
 
@@ -51,3 +51,4 @@ iptables -t nat -A PREROUTING -p tcp -i eth2 -d 147.210.20.2 --dport 22 -j DNAT 
 
 # 4. Autorisation du trafic traversant (FORWARD) pour les connexions déjà établies
 iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT
+```
