@@ -1,0 +1,53 @@
+// 1. Importation d'une police "Terminal / Hacker" (JetBrains Mono)
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+// 2. Définition de notre couleur Cyber (Vert Néon)
+$cyber-green: #00ff41;
+$cyber-dark: #0d1117;
+
+// 3. Application de la police à tout le site
+body, .site-title, .nav-list-link, h1, h2, h3, h4, h5, h6, p, li {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+// 4. Stylisation des liens (texte et menu)
+a {
+  color: $cyber-green !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    text-shadow: 0 0 8px rgba(0, 255, 65, 0.6);
+  }
+}
+
+// 5. Stylisation de la barre latérale (Sidebar)
+.side-bar {
+  border-right: 1px solid $cyber-green !important;
+  background-color: $cyber-dark !important;
+}
+
+// 6. Le gros bouton "Télécharger mon CV"
+.btn-primary {
+  background-color: transparent !important;
+  color: $cyber-green !important;
+  border: 1px solid $cyber-green !important;
+  border-radius: 0 !important; // Bords carrés pour un look machine
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 255, 65, 0.2);
+
+  &:hover {
+    background-color: $cyber-green !important;
+    color: $cyber-dark !important;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.8) !important;
+  }
+}
+
+// 7. Mise en valeur des blocs de code
+pre.highlight {
+  border: 1px solid rgba(0, 255, 65, 0.3);
+  border-left: 4px solid $cyber-green;
+}
